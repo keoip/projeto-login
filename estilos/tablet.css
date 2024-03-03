@@ -38,6 +38,7 @@
         float: right;
         width: 50%;
         height: 90vh;
+        border-top-left-radius: 20px;
     }
     #login > #formulario{
         float: left;
