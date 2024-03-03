@@ -17,6 +17,11 @@
        float: right;
        width: 65%;
      }
+     input{
+        display: flex;
+        align-items: center;
+        margin: 8px;
+     }
 }
 
 @media screen and (min-width:992px){
@@ -26,14 +31,21 @@
     #login{
         width: 970px;
         overflow: hidden;
+        display: flex;
+        align-items: center;
     }
     #login > #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 90vh;
     }
     #login > #formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+    input{
+        display: flex;
+        align-items: center;
+        margin: 8px;
+     }
 }
