@@ -54,3 +54,34 @@ main{
     display: block;
     padding: 10px;
 }
+
+#formulario > h1{
+    text-align: center;
+}
+
+#formulario > p{
+    text-align: justify;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.tamanho{
+    width: 200px;
+}
+
+#sub{
+    color: white;
+    background-color:#49a09d;
+    border: none;
+    border-radius: 6px;
+}
+
+#sub2{
+    color: #49a09d;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #49a09d;
+}
