@@ -81,9 +81,18 @@ input{
     border-radius: 6px;
 }
 
+#sub:hover{
+    background-color: #397674;
+}
+
 #sub2{
     color: #49a09d;
     border: none;
     border-radius: 6px;
     border: 1px solid #49a09d;
+}
+
+#sub2:hover{
+    background-color: #49a09d;
+    color: #295755;
 }

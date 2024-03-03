@@ -17,12 +17,27 @@
        float: right;
        width: 65%;
      }
-     input{
+     form > input[type=submit]{
         display: flex;
         align-items: center;
         margin: 8px;
      }
+
+     .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     input{
+        width: 300px;
+     }
+     #sub,#sub2{
+        width: 350px;
+     }
 }
+
+
 
 @media screen and (min-width:992px){
     body{
@@ -44,9 +59,21 @@
         float: left;
         width: 50%;
     }
-    input{
+    form > input[type=submit]{
         display: flex;
         align-items: center;
         margin: 8px;
+     }
+
+     .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     input{
+        width: 300px;
+     }
+     #sub,#sub2{
+        width: 350px;
      }
 }
